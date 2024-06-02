@@ -1,0 +1,90 @@
+/* style.css */
+.navcontainer {
+    padding: 0 1rem;
+    text-align: center;
+   
+  }
+  .container-fluid{
+    background-color: #1d5fd8;
+    margin-left: 10%;
+  }
+  
+  .navbar {
+    padding: 0.5rem 1rem;
+    
+  }
+   .maincontainer{
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+  } 
+  .img_logo img{
+    border-radius: 30%;
+    margin-right: 20px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    background-size: 100%;
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .img_logo {
+    text-align: left;
+  }
+  
+  .img_logo img {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation links styles */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.btn_1{
+  background-color: #2fd619;
+  text-align: right;
+  
+  padding: 10px 20px;
+  border-color: aqua;
+}

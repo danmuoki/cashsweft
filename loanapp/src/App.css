@@ -1,0 +1,64 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css');
+
+.navbar {
+  transition: all 0.4s ease;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-toggler[aria-expanded='true'].navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+@media (max-width: 991.98px) {
+ .navbar {
+    background-color: #052546;
+  }
+
+ .navbar-nav {
+    padding-top: 1rem;
+  }
+
+ .dropdown-menu {
+    background-color: transparent;
+    border: none;
+  }
+
+ .dropdown-item {
+    padding: 0.5rem 0;
+  }
+
+ .dropdown-divider {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+ .navbar {
+    background-color: transparent;
+  }
+
+ .navbar-nav {
+    padding-top: 0;
+  }
+
+ .dropdown-menu {
+    background-color: transparent;
+    border: none;
+  }
+
+ .dropdown-item {
+    padding: 0.5rem 0;
+  }
+
+ .dropdown-divider {
+    display: none;
+  }
+}
